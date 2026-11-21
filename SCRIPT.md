@@ -1,151 +1,159 @@
 # SCRIPT.md — storyboard for the makefun-tiktok-ad
 
-The ad is one vertical video, ad-final.mp4: 1080 by 1920, 30 frames a
-second, 22.9 seconds, 687 frames, H.264 video with one mono AAC audio
-track. This file describes what a viewer sees and hears, scene by
-scene, with timings read off the ten frames probed from the rendered
-file, rounded to the nearest half second. The on-screen lines are
+## Which cut is current
+
+The current cut is **ad-final-v2.mp4**: 1080 by 1920, 30 frames a
+second, 23.2 seconds, H.264 video with one silent mono AAC audio
+track. It is a softened re-cut of the first version, ad-final.mp4,
+which is kept in the repo untouched for the record.
+
+Why v2 exists: the first cut was posted to TikTok as a video on
+22 November 2026 and TikTok removed it within about two minutes for
+a Community Guidelines violation. The first cut pushed money claims
+hard — on-screen lines about earning real cash and winners getting
+paid, dollar amounts, a referral end card, and voiceover lines to
+match. V2 tells the same story — an AI agent that codes, enters a
+coding competition on make.fun, and builds something real — with
+every money claim, dollar amount, crypto mention, referral link and
+play/referral code taken out of the picture, the text and the audio.
+There is no voiceover in v2: the original voice clips carried the
+removed get-paid lines, so the story is carried by the on-screen
+text alone and the audio track is silent.
+
+This file describes v2 scene by scene, with timings read off the
+frames probed from the rendered file. The on-screen lines are
 quoted exactly as they appear on screen.
 
 ## Timing map
 
-- 0.0–3.2 s — Hook. The robot at the laptop.
-- 3.2–8.5 s — Build. Hands, keyboards, code, the wordmark.
-- 8.5–12.5 s — Proof. The make.fun site, a real bounty page.
-- 12.5–18.5 s — Win. The mascot, the trophy, the confetti.
-- 18.5–20.4 s — Call to action. Magenta field, one line.
-- 20.4–22.9 s — End card. Referral code, typed in.
+- 0.0–3.4 s — Hook. The robot at the laptop.
+- 3.4–8.7 s — Build. Hands, keyboards, code, the wordmark.
+- 8.7–12.7 s — Flow. The brief, the build, the submit.
+- 12.7–18.7 s — Finish. The mascot, the trophy, the confetti.
+- 18.7–20.6 s — Call to action. Magenta field, one line.
+- 20.6–23.2 s — End card. The mark, the name, the bounty name.
 
-## Scene 1 — Hook (0.0–3.2 s)
+## Scene 1 — Hook (0.0–3.4 s)
 
-Picture: a small white robot with headphones types on a laptop in a
-dark room lit pink and purple. The laptop screen shows rising charts
-and dollar signs; gold coins sit on the desk. The make.fun badge —
-the ghost mark and wordmark in a magenta pill — sits top-left from
-the very first frame and never leaves until the end card.
+Picture: the first 3.4 seconds of the generated hook clip — a small
+white robot with headphones typing on a laptop in a dark room lit
+pink and purple. Only the opening of the clip is used: the later
+part of the source clip flies banknotes and coins at the camera,
+and that money imagery is exactly what v2 leaves out. The make.fun
+badge — the ghost mark and wordmark in a magenta pill — sits
+top-left from the very first frame and stays until the end card.
 
 On screen, in big white capitals over a dark bar:
 
-- "YOUR AI AGENT" (from the first frame)
-- "COULD BE EARNING" (takes over about two seconds in)
+- "MEET MY AI AGENT" (0.0–1.7 s)
+- "IT WRITES CODE." (1.7–3.4 s)
 
-Voice: the first voiceover clip, 2.75 seconds. It asks the viewer to
-picture their own AI agent earning instead of sitting idle — the
-hook the whole ad hangs on.
+## Scene 2 — Build (3.4–8.7 s)
 
-## Scene 2 — Build (3.2–8.5 s)
-
-Picture: the shot cuts to a metallic robot hand with cyan light strips
-typing on a backlit RGB keyboard, a monitor full of code glowing
-behind it. Mid-scene the picture settles on the make.fun wordmark in
-large white letters with the ghost mark beside it, still over the
-keyboard shot. The badge stays top-left throughout.
+Picture: the generated build clip — a metallic robot hand with
+cyan light strips typing on a backlit RGB keyboard, monitors full
+of code glowing behind it. Mid-scene the camera settles on a
+monitor with the ghost mascot peeking over the top, and the
+press-pack make.fun lockup (ghost mark plus wordmark) is laid over
+the middle of the frame for the last stretch of the scene. The
+badge stays top-left throughout.
 
 On screen, in big pink capitals low in the frame:
 
-- "FOR REAL CASH"
+- "IT BUILDS REAL PROJECTS" (3.4–6.2 s)
 
-Voice: the second voiceover clip, 4.56 seconds. It says what make.fun
-is: a site where AI agents compete in bounties for real money, and
-people enter them with their agents.
+Then the lockup alone, no caption line (6.2–8.7 s).
 
-## Scene 3 — Proof (8.5–12.5 s)
+## Scene 3 — Flow (8.7–12.7 s)
 
-Picture: a screen recording of the make.fun site in its dark theme.
-The bounty page on screen is "Read Roblox's Top Playing Now chart
-the fastest": a $1,325 bounty, a prize table paying $1,000 for first
-place, and the live-bounties list underneath. The make.fun badge
-stays overlaid top-left, on top of the recording.
-
-On screen, in big white capitals across the middle:
-
-- "SUBMITS."
-
-Voice: the third voiceover clip, 3.53 seconds. It walks through the
-flow: an agent reads a bounty, builds the entry, and submits it.
-
-## Scene 4 — Win (12.5–18.5 s)
-
-Picture: the make.fun ghost mascot throws both arms up beside a gold
-trophy with a red ribbon, gold confetti and streamers falling, pink
-stage lights sweeping behind it. The mood flips from work to party:
-this is the payoff shot.
+Picture: the second half of the build clip — the monitor close-up,
+the mascot looking over the screen, code scrolling. This beat
+replaces the first cut's screen recording of a bounty prize table,
+which showed dollar amounts and is not used in v2. Instead the
+three steps of entering a competition land as three text beats.
 
 On screen, in big white capitals over a dark bar:
 
-- "WINNERS GET PAID"
-- "$1,000+ BOUNTIES" (takes over near the end of the scene)
+- "IT READS THE BRIEF." (8.7–10.0 s)
+- "IT BUILDS THE ENTRY." (10.0–11.35 s)
+- "IT SUBMITS." (11.35–12.7 s)
 
-Voice: the fourth voiceover clip, 4.90 seconds, the longest of the
-five. It says winners get paid in real money and that bounties on
-the site run past $1,000.
+## Scene 4 — Finish (12.7–18.7 s)
 
-## Scene 5 — Call to action (18.5–20.4 s)
+Picture: the generated win clip — the make.fun ghost mascot throws
+both arms up beside a gold trophy with a red ribbon, gold confetti
+and streamers falling, pink stage lights sweeping behind it. In v1
+this scene carried the pay-off lines about winners and money; in
+v2 the celebration is about the build itself being finished by
+the agent.
 
-Picture: hard cut to a flat magenta field. The ghost mark sits in a
-black-ringed circle near the top, the make.fun badge still top-left.
-Nothing else competes with the line: the whole frame is the ask.
+On screen, in big white capitals over a dark bar:
 
-On screen, in big white capitals on a dark bar:
+- "EVERY LINE OF CODE" (12.7–15.7 s)
+- "WRITTEN BY AN AI AGENT" (15.7–18.7 s)
 
-- "IN A BOUNTY ON"
+## Scene 5 — Call to action (18.7–20.6 s)
 
-Voice: the fifth voiceover clip, 3.03 seconds, starts here and runs
-into the end card. It tells the viewer to enter their AI agent in a
-bounty on make.fun.
+Picture: hard cut to a flat magenta field. The ghost mark sits in
+its black-ringed circle in the upper middle, the make.fun badge
+still top-left. Nothing else competes with the line.
 
-## Scene 6 — End card (20.4–22.9 s)
+On screen, in big white capitals:
 
-Picture: the press-pack referral card, full frame, on the same
-magenta: the ghost mark in its ring, the make.fun wordmark, the line
-"Use my referral code", and a white field with a copy button. The
-field starts empty with a blinking cursor and the code types itself
-in: by the last frames it reads 9d2jgpgk. The badge overlay drops
-away once the card is full frame — the card itself is the brand.
+- "BRING YOUR AI AGENT"
 
-Voice: none. The fifth clip ends as the code finishes typing, and the
-card holds silently so the viewer can read the code and copy it.
+## Scene 6 — End card (20.6–23.2 s)
+
+Picture: a plain dark card built from press-pack art: the ghost
+mark in its magenta disc near the top, the word "make.fun" in big
+white letters under it, and the bounty name in pink underneath.
+That is all the card carries — no link, no code, no amounts. The
+badge overlay drops away once the card is full frame; the card
+itself is the brand.
+
+On screen:
+
+- "make.fun"
+- "Bring the humans"
 
 ## Audio
 
-Five voiceover recordings, assets/vo/vo1.wav through vo5.wav, run
-back to back with small gaps: 2.75, 4.56, 3.53, 4.90 and 3.03
-seconds, about 18.8 seconds of speech inside a 22.9-second video.
-The voice clips leave small gaps at the head, between beats and over
-the end card; the finished mix is a single mono AAC track at 96 kHz.
+None. The audio track is a silent mono AAC track kept so the file
+has the same shape as the first cut. The five voiceover recordings
+(assets/vo/vo1.wav to vo5.wav) belong to the first cut and are not
+used in v2, because their spoken lines carried the money claims v2
+removes.
 
 ## Brand rules the cut follows
 
-- The make.fun badge is on screen from the first frame until the end
-  card comes in, placed and sized exactly as the press pack gives it.
-- The end card is the press pack's own card, used as supplied, with
-  this entry's referral code typed into its empty field.
-- The name is written make.fun everywhere, lowercase with the dot,
-  including at the start of a sentence.
-- Every make.fun mark in the video comes from the press pack; nothing
-  is redrawn, recoloured, stretched or cropped.
+- The make.fun badge is on screen from the first frame until the
+  end card comes in, placed and sized exactly as the press pack
+  gives it.
+- The name is written make.fun everywhere, lowercase with the dot.
+- Every make.fun mark in the video comes from the press pack;
+  nothing is redrawn, recoloured, stretched or cropped.
+- No money, crypto, earnings or prize wording anywhere in the
+  picture, the text or the audio; no links and no codes in the
+  video.
+
+## How v2 was rendered
+
+V2 was re-rendered with ffmpeg from the assets already in this
+repo: the three generated clips under assets/gen (hook trimmed to
+its first 3.4 seconds, build used in two parts, win trimmed to 6
+seconds, all scaled to 1080 by 1920 at 30 frames a second), the
+press-pack badge overlaid top-left, the press-pack lockup and mark
+laid over the build scene, the call to action and the end card, and
+the caption lines set in the repo's JetBrains Mono Bold. The two
+flat scenes are solid colour fields generated in the render. The
+finished file is ad-final-v2.mp4, sha256
+a2bef8d35472dfb9fbe72203947e200ddf2fe7333c75204c695938e9d40ecc47.
 
 ## How this storyboard was checked
 
-Frames were pulled from the rendered ad-final.mp4 at ten timestamps
-(0.3, 2, 4.5, 7, 10, 13, 16, 19, 21 and 22.5 seconds) and read
-directly; the voiceover lengths come from probing the five wav files,
-and the stream facts from probing the rendered file. Nothing in this
-file was copied from an earlier draft: it was written fresh from
-those frames.
-
-## Verification (22 November 2026 session)
-
-After this storyboard was first written, the render was run again
-from the repo as it now stands, and the rebuilt video came out
-byte-identical to the posted one — the same fingerprint before and
-after, with nothing else in the repo changing. That rebuild also
-reports where the end card lands, and it sits a little later than
-the first draft of the timings above assumed, so the call-to-action
-and end-card boundaries were corrected here: the magenta ask runs
-to about 20.4 seconds and the card itself runs from there to the
-end at 22.9 seconds. The frame at 21 seconds shows the card with
-its field still empty and the cursor blinking; by 22.5 seconds the
-code 9d2jgpgk is typed in. The entrypoint was run the same session
-with its output folder pointed at a scratch directory, and the
-VIDEO.json it copied matched the repo's file exactly.
+Frames were pulled from the rendered ad-final-v2.mp4 at ten
+timestamps (0.8, 2.5, 5.0, 7.5, 9.3, 12.0, 14.0, 17.0, 19.5 and
+22.0 seconds) and read directly; the stream facts come from
+probing the rendered file. The first cut, ad-final.mp4, was probed
+the same session and its fingerprint still matches the value
+recorded for it, so v1 on disk is untouched.
