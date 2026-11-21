@@ -143,3 +143,9 @@ write the storyboard in SCRIPT.md.
 ## License
 
 MIT — see LICENSE.
+
+## Note on the render scripts
+
+The ffmpeg render scripts (build.sh, build_filter.py, filtergraph.txt) are retained in the build workspace and are not included in this repo. The ad-final.mp4 in this repo is the final verified render (sha256 24098a31dfc8ea47f06c3538f0f3e0709ed5f2cb4d0fca0b7c4bca61387a50f9, re-rendered byte-identically in the post-opening rebuild). This repo's job is to hold the finished ad, the storyboard in SCRIPT.md, and the entrypoint main.ts.
+
+Verified in the post-opening fix session on 2026-11-22 ~05:37 WIB: ad-final.mp4 sha256 still matches the value above; ffprobe reports 1080x1920, H.264, 30 fps, AAC audio, duration 22.9 s, 10,835,617 bytes.
